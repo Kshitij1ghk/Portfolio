@@ -37,21 +37,31 @@ body {
 .span-rows{
     grid-column: 1/-1;/*spans full width*/
 }
-#header{
-    background-color: black;
-    padding: 10px;
-    border-radius: 18px;
-    border-color: whitesmoke;
-    color: white;
-    font-size: 30px;
-}
-header strong{
+.headertop{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.new strong{
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    transition: background-color 0.3s ease;
-    margin-left: 600px;
-    margin-right: 600px;
+}
+.subtitle{
+    font-style: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 .grid-container{
     display: grid;
