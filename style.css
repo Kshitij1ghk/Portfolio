@@ -142,8 +142,72 @@ body {
     margin: 10px;/*creates spacing between card*/
     box-sizing: border-box;
 }
+#profile p{
+    justify-content: center;
+    background-color: #5e5e5e;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /*adds a shadow effect to the box which goes as box-shadow: offset-x offset-y blur-radius color;*/
+    font-size: 28px;
+    box-sizing: border-box;
+    
+}
+#education ul{
+    display: flex; /*changes layout to horizontal*/
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#education ul li{
+    background-color: #5e5e5e;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /*adds a shadow effect to the box which goes as box-shadow: offset-x offset-y blur-radius color;*/
+    font-size: 26px;
+    box-sizing: border-box;
+    margin: 10px;/*creates spacing between card*/
+    box-sizing: border-box;
+}
 .span-columns{
     grid-column: 1/-1;/*spans full width*/
+}
+
+.span-columns1{
+    grid-column: -1/1;
+}
+.profile1{
+    grid-column: -1/1;
+}
+.education1{
+    grid-column: -1/1;
+}
+#technicalskills ul {
+    display: flex; /*changes layout to horizontal*/
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#technicalskills ul li h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+#technicalskills ul li {
+    background-color: #5e5e5e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%; /*this makes two cards per row */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /*adds a shadow effect to the box which goes as box-shadow: offset-x offset-y blur-radius color;*/
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 10px;/*creates spacing between card*/
+    box-sizing: border-box;
 }
 
 #contacts {
