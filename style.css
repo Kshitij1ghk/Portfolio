@@ -321,3 +321,6 @@ img {
 p {
     line-height: 1.3;
 }
+html {
+  scroll-padding-top: 100px; /* height of your sticky header adds 100pxmargin so that the sections are visible its not visual */
+}
