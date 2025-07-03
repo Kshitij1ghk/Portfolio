@@ -320,6 +320,9 @@ center{
 img {
     margin-right: 10px;
 }
+html {
+  scroll-padding-top: 100px; /* or height of your sticky nav */
+}
 
 p {
     line-height: 1.3;
