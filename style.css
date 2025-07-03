@@ -114,7 +114,9 @@ body {
   background-color: white;
   margin-top: 6px;
 }
-
+html {
+  scroll-padding-top: 100px; 
+}
 #projects ul {
     display: flex; /*changes layout to horizontal*/
     flex-wrap: wrap; /*allows wrapping to next row if there is a need required*/
@@ -319,9 +321,6 @@ center{
 
 img {
     margin-right: 10px;
-}
-html {
-  scroll-padding-top: 100px; /* or height of your sticky nav */
 }
 
 p {
