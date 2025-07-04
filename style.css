@@ -316,11 +316,17 @@ footer a:hover {
 
 center{
     color: white;
-    font-size: 24px;
+    font-size: 25px;
 }
 
 img {
     margin-right: 10px;
+}
+.symbol {
+  font-size:1.5em;
+  vertical-align: baseline;
+  position: relative;
+  top: 3px; 
 }
 
 p {
